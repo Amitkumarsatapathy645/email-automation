@@ -1,0 +1,52 @@
+/* Add some great CSS styling to MyForm component */
+/* Center the form */
+.Flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the heading */
+.Heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Style the form container */
+.Box {
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+/* Style the form labels */
+.FormLabel {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the input fields */
+.Input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the submit button */
+.Button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Button:hover {
+  background-color: #45a049;
+}
