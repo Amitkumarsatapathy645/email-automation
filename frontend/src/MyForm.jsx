@@ -19,7 +19,7 @@ export default function MyForm() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
 
-  const baseUrl = "http://localhost:8000";
+  const baseUrl = "https://email-automation-alpha.vercel.app/";
 
   const sendEmail = async () => {
   let dataSend = {
